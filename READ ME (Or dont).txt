@@ -1,0 +1,44 @@
+This is the read me document for a automated HXD data corruption script created FatCrow.
+
+
+
+Key Command List:
+
+F1
+Find where the mdat starts
+
+Control + 1
+Copy 1 hex value to the cell below it
+
+Control + 2
+Copy the cells hex value to 10 cells below it
+
+Control + 3
+Copy the cells hex value to 30 cells below it
+
+Control + 4
+Copy the cells hex value to 100 cells below it
+
+Control + 5
+Copy the cells hex value to 500 cells below it
+
+Control + 9
+Copy the cells hex value to 1000 cells below it
+
+Control + 10
+Copy the cells hex value to 10000 cells below it
+
+
+
+Escape
+Exits the AutoHotkey script stopping any more processing.
+
+
+
+This script automates copying and pasting one cell of data to multiple cells below that one.
+
+Load AutoHotkey with the Delete I-frames script running.
+When you are ready to remove I-frames place your mouse pointer on the rectangular slider underneath the video.
+Press the different key commands above for the amount of I-frames you want to remove to trigger the AutoHotkey script.
+The script will then send the key commands needed to delete the requested number of frames.
+Have fun moshing!
